@@ -15,8 +15,6 @@ while 1:
 
 
         for file in files:
-            
-
             if file.endswith('.zip'):
                 filePath=path+file
                 print(filePath)
