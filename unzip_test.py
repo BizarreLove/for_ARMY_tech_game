@@ -9,7 +9,7 @@ while 1:
     try:
         files=os.listdir(path)
         for file in files:
-            if file.endswith('.txt'):
+            if file.endswith('.txt' ,'.PNG' ,'.jpg' ,'.png'):
                 #print(file)
                 sys.exit()
 
